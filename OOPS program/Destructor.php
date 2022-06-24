@@ -18,6 +18,6 @@
     $Rahul = new Employee("Rahul", 56000); 
 
     echo "The salary of Rohan is $Rohan->salary \n";
-    echo "The salary of Sohan is $Soham->salary \n";
+    echo "The salary of Soham is $Soham->salary \n";
     echo "The salary of Rahul is $Rahul->salary \n";
 ?>

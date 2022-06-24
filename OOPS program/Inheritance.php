@@ -2,18 +2,21 @@
 //program for inheritance concept  
 class first  
     {  
-        function friend()  
+      
+     public  function friend($name)  
         {  
-            echo "Rahul";  
+            echo "friend name is $name \n";  
         }  
     }  
     class second extends first 
     {  
-        function friendship()  
+      public  function friendship()  
         {  
-            echo "Best freind forever";  
+            echo "Best friend forever \n"; 
+           
         }  
     }  
     $obj= new second(); //create object for second class 
-    $obj->friend();  //calling function of first class
+    $obj->friendship();
+    $obj->friend("Rohan");  //calling function of first class
 ?>  

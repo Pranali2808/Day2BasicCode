@@ -7,20 +7,19 @@ class Customer {
       
     //function to Update password
     public function updatePwd($userId, $pwd) {
-          echo("Function to update password '" . $pwd . "' for user " . $userId ."/n");
+          echo("Function to update password '" . $pwd . "' for user " . $userId ."\n");
            }
     // function to get details 
     public function Details($userId) {
         
-        echo("Function to get details of user "
-                . $userId);
+        echo("Function to get details of user ". $userId);
           
-        echo "/n";
+        echo "\n";
     }
 }
   
 $obj = new Customer();
-$obj -> updatePwd('12345', '25');
+$obj -> updatePwd( '25','12345');
 $obj -> Details('06');
   
 ?>
